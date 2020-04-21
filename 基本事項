@@ -1,5 +1,7 @@
 参考サイト
 https://jsprimer.net/
+実行環境
+chrome→F12→console
 
 変数
 ・var, const, let
