@@ -1,0 +1,78 @@
+/*見出し*/
+h1 {
+  position: relative;
+  background: #eff4ff;
+  padding: 2px 5px 2px 20px;
+  font-size: 30px;
+  color: #474747;
+  border-radius: 0 10px 10px 0;
+}
+
+/*テーブル*/
+table.type06 {
+  border-collapse: collapse;　/**/
+  border: 1px solid #ccc;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: auto ;/*コンテンツをページセンターに配置*/
+  margin-right: auto ;/*コンテンツをページセンターに配置*/
+  width: 98%;/*コンテンツの幅*/
+}
+
+/*テーブル タイトル要素*/
+table.type06 th {
+  padding: 5px;
+  font-size: x-small; /*フォントサイズ*/
+  vertical-align: top;
+  font-weight: bold;　/*太文字化*/
+}
+
+/*テーブル　データ要素*/
+table.type06 td {
+  padding: 5px;
+  font-size: x-small;
+  vertical-align: top;
+ }
+
+/*テーブル　装飾*/
+tr:nth-child(even) {
+  background: #d9d9d9; /*背景色*/
+ }
+
+
+/*入力フォーム*/
+input.form1 {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  margin: 5px 10px;/*上下、左右のマージン*/
+}
+
+/*ボタン*/
+input.button1 {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  margin: 5px 10px;/*上下、左右のマージン*/
+}
+
+
+
